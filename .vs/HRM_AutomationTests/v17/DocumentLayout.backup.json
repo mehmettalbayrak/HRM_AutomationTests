@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|c:\\users\\mehmetalbayrak\\source\\repos\\hrm_automationtests\\testproject\\ec\\tokenmanagement\\ectokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|solutionrelative:testproject\\ec\\tokenmanagement\\ectokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|c:\\users\\mehmetalbayrak\\source\\repos\\hrm_automationtests\\testproject\\hrc\\tokenmanagement\\hrctokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|solutionrelative:testproject\\hrc\\tokenmanagement\\hrctokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|c:\\users\\mehmetalbayrak\\source\\repos\\hrm_automationtests\\testproject\\ec\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4968014A-A2B7-42A7-B846-A448D9EF954A}|TestProject\\HRM_Tests.csproj|solutionrelative:testproject\\ec\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginTest.cs",
-              "DocumentMoniker": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\EC\\LoginTest.cs",
-              "RelativeDocumentMoniker": "TestProject\\EC\\LoginTest.cs",
-              "ToolTip": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\EC\\LoginTest.cs",
-              "RelativeToolTip": "TestProject\\EC\\LoginTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:41:21.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HRCTokenManager.cs",
-              "DocumentMoniker": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
-              "RelativeDocumentMoniker": "TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
-              "ToolTip": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
-              "RelativeToolTip": "TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:20:21.645Z"
             },
             {
               "$type": "Document",
@@ -64,9 +32,10 @@
               "RelativeDocumentMoniker": "TestProject\\EC\\TokenManagement\\ECTokenManager.cs",
               "ToolTip": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\EC\\TokenManagement\\ECTokenManager.cs",
               "RelativeToolTip": "TestProject\\EC\\TokenManagement\\ECTokenManager.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAwwBMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:14:42.449Z"
+              "WhenOpened": "2025-03-13T22:14:42.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +45,7 @@
               "RelativeDocumentMoniker": "TestProject\\EC\\WorkFlows\\Leaves.cs",
               "ToolTip": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\EC\\WorkFlows\\Leaves.cs",
               "RelativeToolTip": "TestProject\\EC\\WorkFlows\\Leaves.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwFEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T19:12:54.083Z",
               "EditorCaption": ""

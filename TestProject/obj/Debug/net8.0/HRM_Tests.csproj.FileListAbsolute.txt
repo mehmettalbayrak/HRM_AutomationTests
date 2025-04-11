@@ -176,3 +176,4 @@ C:\Users\MehmetAlbayrak\source\repos\HRM_AutomationTests\TestProject\bin\Debug\n
 C:\Users\MehmetAlbayrak\source\repos\HRM_AutomationTests\TestProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\MehmetAlbayrak\source\repos\HRM_AutomationTests\TestProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\MehmetAlbayrak\source\repos\HRM_AutomationTests\TestProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MehmetAlbayrak\source\repos\HRM_AutomationTests\TestProject\obj\Debug\net8.0\HRM_Tests.sourcelink.json

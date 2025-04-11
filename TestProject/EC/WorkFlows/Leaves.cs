@@ -28,7 +28,10 @@ namespace HRM_Tests.EC.Modules
             driver.Quit();
         }
 
+
+
         [Test]
+
         public void SubmitLeaveForm_ShouldSucceed()
         {
             var tokenManager = ECTokenManager.Instance;
@@ -72,12 +75,14 @@ namespace HRM_Tests.EC.Modules
                 Console.WriteLine("Modal görünmedi, devam ediliyor.");
             }
 
-            var izinTipiInput = wait.Until(d => d.FindElement(By.Name("permitType")));
+            var izinTipiInput = wait.Until(d => d.FindElement(By.Name("PermitType")));
             izinTipiInput.Click();
 
             var dropdownItems = wait.Until(d =>
                 d.FindElements(By.CssSelector(".rbt-menu.dropdown-menu.show .dropdown-item"))
             );
+
+
 
             if (dropdownItems.Count > 0)
             {
@@ -86,11 +91,24 @@ namespace HRM_Tests.EC.Modules
                 randomItem.Click();
             }
 
-            driver.FindElement(By.Name("startDate")).SendKeys("10.04.2025");
-            driver.FindElement(By.Name("endDate")).SendKeys("11.04.2025");
-            driver.FindElement(By.Name("reason")).SendKeys("Test otomasyonu nedeniyle");
+            // Random tarih üretici
+            Random randomDate = new Random();
 
-            driver.FindElement(By.XPath("//button[contains(., 'Gönder')]"))?.Click();
+            // Bugünden 1-5 gün sonrası için StartDate
+            DateTime startDate = DateTime.Today.AddDays(randomDate.Next(1, 6));
+
+            // StartDate'ten 1-3 gün sonrası için EndDate
+            DateTime endDate = startDate.AddDays(randomDate.Next(1, 4));
+
+            // Türkçe tarih formatına göre string'e çevir (gün.ay.yıl)
+            string startDateStr = startDate.ToString("dd.MM.yyyy");
+            string endDateStr = endDate.ToString("dd.MM.yyyy");
+
+            driver.FindElement(By.Name("StartDate")).SendKeys(startDateStr);
+            driver.FindElement(By.Name("EndDate")).SendKeys(endDateStr);
+            driver.FindElement(By.Name("Description")).SendKeys("MA - Test automation");
+
+            driver.FindElement(By.XPath("//body/div[3]/div[3]/div[1]/div[2]/div[1]/div[2]/button[2]"))?.Click();
 
             NUnit.Framework.Assert.That(driver.PageSource, Does.Contain("başarıyla"), "Form gönderimi başarılı olmadı.");
         }

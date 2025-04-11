@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HRM_Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baa8e32b2247a452b372b1a99aa4085d8a4f0049")]
 [assembly: System.Reflection.AssemblyProductAttribute("HRM_Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HRM_Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
