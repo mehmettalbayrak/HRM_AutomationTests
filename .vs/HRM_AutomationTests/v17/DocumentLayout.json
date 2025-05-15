@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
               "ToolTip": "C:\\Users\\MehmetAlbayrak\\source\\repos\\HRM_AutomationTests\\TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
               "RelativeToolTip": "TestProject\\HRC\\TokenManagement\\HRCTokenManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T21:11:18.374Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "TestProject\\EC\\LoginTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:10:45.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T21:10:45.801Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "TestProject\\EC\\TokenManagement\\ECTokenManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:14:42.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T22:14:42.449Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "TestProject\\EC\\WorkFlows\\Leaves.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:12:54.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T19:12:54.083Z"
             }
           ]
         }
