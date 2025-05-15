@@ -39,7 +39,7 @@ namespace HRM_Tests.EC.TokenManagement
 
         public void Login(IWebDriver driver, string email, string password)
         {
-            driver.Navigate().GoToUrl("https://test-employeecenter.azurewebsites.net/login");
+            driver.Navigate().GoToUrl("https://hrmapp.com/login");
 
             driver.FindElement(By.Name("mail")).SendKeys(email);
             driver.FindElement(By.Name("password")).SendKeys(password);
@@ -53,7 +53,7 @@ namespace HRM_Tests.EC.TokenManagement
             {
                 _token = wait.Until(d =>
                 {
-                    string token = (string)js.ExecuteScript("return localStorage.getItem('Layers_Access_Token');");
+                    string token = (string)js.ExecuteScript("return localStorage.getItem('Access_Token');");
                     return !string.IsNullOrEmpty(token) ? token : null;
                 });
 
@@ -73,7 +73,7 @@ namespace HRM_Tests.EC.TokenManagement
             }
 
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript($"localStorage.setItem('Layers_Access_Token', '{_token}');");
+            js.ExecuteScript($"localStorage.setItem('Access_Token', '{_token}');");
         }
 
         public string GetToken()

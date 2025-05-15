@@ -24,26 +24,25 @@ namespace HRM_Tests.EC.Modules
         [TearDown]
         public void TearDown()
         {
-            Thread.Sleep(3000); // Gözlemlemek için kısa bekleme
+            Thread.Sleep(3000); 
             driver.Quit();
         }
 
 
 
         [Test]
-
         public void SubmitLeaveForm_ShouldSucceed()
         {
             var tokenManager = ECTokenManager.Instance;
-            tokenManager.Login(driver, "oliver.q2424@gmail.com", "Neyasis123.");
+            tokenManager.Login(driver, "kullanıcı@mail.com", "Şifre123.");
 
             ((IJavaScriptExecutor)driver).ExecuteScript("window.open('about:blank','_blank');");
             driver.SwitchTo().Window(driver.WindowHandles.Last());
-            driver.Navigate().GoToUrl("https://test-employeecenter.azurewebsites.net/");
+            driver.Navigate().GoToUrl("https://hrmapp.com/");
             tokenManager.SetToken(driver);
 
-            driver.Navigate().GoToUrl("https://test-employeecenter.azurewebsites.net/tr/my-profile/permit");
-            Thread.Sleep(3000); // Gözlemlemek için kısa bekleme
+            driver.Navigate().GoToUrl("https://hrmapp.com/tr/permit");
+            Thread.Sleep(3000);
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
             var talepOlusturBtn = wait.Until(d => d.FindElement(By.XPath("//*[@id=\"id\"]/div/div[4]/div/div/div[3]/div[3]/div/div/button")));
@@ -94,13 +93,12 @@ namespace HRM_Tests.EC.Modules
             // Random tarih üretici
             Random randomDate = new Random();
 
-            // Bugünden 1-5 gün sonrası için StartDate
+            // Bugünden 1-5 gün sonrası için Başlangıç Tarihi
             DateTime startDate = DateTime.Today.AddDays(randomDate.Next(1, 6));
 
-            // StartDate'ten 1-3 gün sonrası için EndDate
+            // StartDate'ten 1-3 gün sonrası için Bitiş Tarihi
             DateTime endDate = startDate.AddDays(randomDate.Next(1, 4));
 
-            // Türkçe tarih formatına göre string'e çevir (gün.ay.yıl)
             string startDateStr = startDate.ToString("dd.MM.yyyy");
             string endDateStr = endDate.ToString("dd.MM.yyyy");
 
